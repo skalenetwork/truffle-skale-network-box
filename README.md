@@ -2,7 +2,7 @@
 
 # SKALE Network Box
 
-![box-artwork](https://github.com/skalenetwork/skale-box/blob/master/truffle-skale.png?raw=true)
+![box-artwork](https://github.com/skalenetwork/skale-box/blob/main/truffle-skale.png?raw=true)
   
 -  [Overview](#overview)
 -  [Requirements](#requirements)
