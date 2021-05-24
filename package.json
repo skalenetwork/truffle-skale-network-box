@@ -1,0 +1,37 @@
+{
+  "name": "skale-box",
+  "version": "1.0.0",
+  "description": "A sample Truffle project that allows developers to deploy to the SKALE Network | Ethereum Native Blockchain",
+  "author": "SKALE Labs | Solutions Engineering Team",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truffle-box/skale-box.git"
+  },
+  "keywords": [
+    "SKALE",
+    "SKALE Network",
+    "Ethereum",
+    "Truffle",
+    "dapp",
+    "layer 2",
+    "sidechain",
+    "elastic sidechain"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/truffle-box/skale-box/issues"
+  },
+  "homepage": "https://github.com/truffle-box/skale-box#readme",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.4.0",
+    "dotenv": "^9.0.0"
+  },
+  "dependencies": {}
+}
