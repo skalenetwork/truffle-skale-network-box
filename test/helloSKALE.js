@@ -8,7 +8,7 @@ contract("HelloSKALE", accounts => {
     await helloSKALEInstance.setName("SKALE Innovator", { from: accounts[0] });
 
     // Get stored value
-    const storedData = await helloSKALEInstance.get.call();
+    const storedData = await helloSKALEInstance.sayHello.call();
 
     const expected = "Hello SKALE Innovator!";
 

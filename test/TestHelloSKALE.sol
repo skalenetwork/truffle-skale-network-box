@@ -11,9 +11,9 @@ contract TestHelloSKALE {
 
     helloSKALE.setName("SKALE Innovator");
 
-    string expected = "Hello SKALE Innovator!";
+    string memory expected = "Hello SKALE Innovator!";
 
-    Assert.equal(helloSKALE.get(), expected, "It should welcome SKALE Innovator");
+    Assert.equal(helloSKALE.sayHello(), expected, "It should welcome SKALE Innovator");
   }
 
 }
