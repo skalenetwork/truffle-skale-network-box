@@ -18,7 +18,7 @@ require('dotenv').config();
 
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 
-const privateKey = process.env.PRIVATE_KEY;
+const privateKeyOrMnemonic = process.env.PRIVATE_KEY || process.env.MNEMONIC;
 
 const skale = process.env.SKALE_CHAIN;
 
@@ -30,7 +30,7 @@ module.exports = {
             network_id: "*"
         },
         skale: {
-            provider: () => new HDWalletProvider(privateKey, skale),
+            provider: () => new HDWalletProvider(privateKeyOrMnemonic, skale),
             gasPrice: 0,
             network_id: "*",
             skipDryRun: true

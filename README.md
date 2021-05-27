@@ -115,6 +115,14 @@ To learn more about using environment variables within a `.env` file plese see:
 
 https://www.npmjs.com/package/dotenv
 
+#### Using a mnemonic
+
+If that you'd prefer to use a mnemonic (vs a private key), you can just omit the `PRIVATE_KEY` entry in your `.env` file and include a `MNEMONIC` entry instead. Note that `HDWalletProvider` will use the first account that's generated from the mnemonic. For example:
+
+```
+SKALE_CHAIN=https://this-is-my-skale-chain.com:1234 
+MNEMONIC=test test test test test test test test test test test test
+```
 
 ## Deploy to the SKALE Network
 You can use Truffle to compile and migrate your smart contracts to the SKALE Network. The following command will compile and migrate the smart contract(s) to SKALE:
