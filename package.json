@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/truffle-box/skale-box#readme",
   "devDependencies": {
-    "@truffle/hdwallet-provider": "^1.4.0",
+    "@truffle/hdwallet-provider": "^1.2.3",
     "dotenv": "^9.0.0"
   },
   "dependencies": {}
