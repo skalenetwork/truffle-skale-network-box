@@ -60,7 +60,7 @@ The SKALE Network box has the following requirements:
 
 ```bash
 
-$ truffle unbox skale-box
+$ truffle unbox skalenetwork/truffle-skale-network-box
 $ npm install
 
 ```
