@@ -141,7 +141,7 @@ https://www.trufflesuite.com/docs/truffle/reference/truffle-commands
 ## Testing
 Truffle can run tests written in Solidity or JavaScript against your smart contracts. Note the command varies slightly if you're in or outside of the development console.
 
-   ```javascript
+   ```
    // inside the truffle development console.
    test --network skale --config=truffle-config.skale.js
 
