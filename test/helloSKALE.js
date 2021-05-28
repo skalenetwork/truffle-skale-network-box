@@ -1,4 +1,4 @@
-const HelloSKALE = artifacts.require("./HelloSKALE.sol");
+const HelloSKALE = artifacts.require("./skale/HelloSKALE.sol");
 
 contract("HelloSKALE", accounts => {
   it("...should welcome SKALE Innovator", async () => {

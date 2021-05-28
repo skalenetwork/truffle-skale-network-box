@@ -2,7 +2,7 @@ pragma solidity >=0.4.21 <0.7.0;
 
 import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
-import "../contracts/HelloSKALE.sol";
+import "../contracts/skale/HelloSKALE.sol";
 
 contract TestHelloSKALE {
 

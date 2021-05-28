@@ -117,7 +117,7 @@ https://www.npmjs.com/package/dotenv
 
 #### Using a mnemonic
 
-If that you'd prefer to use a mnemonic (vs a private key), you can just omit the `PRIVATE_KEY` entry in your `.env` file and include a `MNEMONIC` entry instead. Note that `HDWalletProvider` will use the first account that's generated from the mnemonic. For example:
+If you'd prefer to use a mnemonic (vs a private key), you can just omit the `PRIVATE_KEY` entry in your `.env` file and include a `MNEMONIC` entry instead. Note that `HDWalletProvider` will use the first account that's generated from the mnemonic. For example:
 
 ```
 SKALE_CHAIN=https://this-is-my-skale-chain.com:1234 
@@ -143,10 +143,10 @@ Truffle can run tests written in Solidity or JavaScript against your smart contr
 
    ```javascript
    // inside the truffle development console.
-   test
+   test --network skale --config=truffle-config.skale.js
 
    // outside the truffle development console.
-   truffle test
+   truffle test --network skale --config=truffle-config.skale.js
    ```
 ## Resources
 
