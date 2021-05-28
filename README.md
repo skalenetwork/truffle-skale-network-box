@@ -128,7 +128,7 @@ MNEMONIC=test test test test test test test test test test test test
 You can use Truffle to compile and migrate your smart contracts to the SKALE Network. The following command will compile and migrate the smart contract(s) to SKALE:
 
 ```
-truffle migrate --network skale --compile-all
+truffle migrate --network skale --compile-all --config=truffle-config.skale.js
 ```
 
 
