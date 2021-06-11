@@ -42,7 +42,7 @@ module.exports = {
         },
         skale: {
             provider: () => new HDWalletProvider(privateKeyOrMnemonic, skale),
-            gasPrice: 0,
+            gasPrice: 100000,
             network_id: "*",
             skipDryRun: true
         }
