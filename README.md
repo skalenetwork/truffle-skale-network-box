@@ -76,7 +76,7 @@ The SKALE Network is a multichain platform, and there are many ways to get acces
 ### 2) Get a Wallet
 The SKALE Network works with a variety of wallet solutions. If you already have a wallet and private key to use, you can skip this step and go to the next section: [Update Truffle Config](#update-truffle-config).
 
-You can pick and setup your favorite wallet from the documentation [here](https://skale.network/docs/developers/wallets/getting-started).
+You can pick and setup your favorite wallet from the documentation [here](https://docs.skale.network/develop/).
 
 We recommend starting with MetaMask, and obtaining a wallet address and private key to use for testing from the [MetaMask wallet](https://metamask.io/).
 
@@ -113,7 +113,7 @@ SKALE_CHAIN=https://this-is-my-skale-chain.com:1234
 PRIVATE_KEY=0x0000000000000000000000000000000000000000000000000000000000000000
 ```
 
-To learn more about using environment variables within a `.env` file plese see:
+To learn more about using environment variables within a `.env` file, see:
 
 https://www.npmjs.com/package/dotenv
 
@@ -157,7 +157,7 @@ Truffle can run tests written in Solidity or JavaScript against your smart contr
 - [Blog](https://skale.network/blog)
 - [Github](https://github.com/skalenetwork)
 - [Whitepaper](https://skale.network/whitepaper)
-- [Developer Docs](https://skale.network/docs/developers/overview)
+- [Developer Docs](https://docs.skale.network)
 
 **SKALE Network Community Links**
 - [Discord](http://skale.chat)
