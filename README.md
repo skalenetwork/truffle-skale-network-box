@@ -10,7 +10,7 @@
 -  [Setup](#setup)
 	*  [Get a SKALE Chain](#1-get-a-skale-chain)
 	*  [Get a Wallet](#2-get-a-wallet)
-    	*  [Fund your Wallet with skETH](#fund-your-wallet-with-sketh)
+    	*  [Fund your Wallet with sFUEL](#fund-your-wallet-with-sfuel)
 	*  [Update Truffle Config](#3-update-truffle-config)
 -  [Deploy to the SKALE Network](#deploy-to-the-skale-network)
 -  [Test](#testing)
@@ -80,12 +80,14 @@ You can pick and setup your favorite wallet from the documentation [here](https:
 
 We recommend starting with MetaMask, and obtaining a wallet address and private key to use for testing from the [MetaMask wallet](https://metamask.io/).
 
-#### Fund your Wallet with skETH
-SKALE Chains enable dApps to run gasless transactions. This provides an effective way to scale your dApp not only for speed but also to scale economically. However, SKALE Chains do require skETH to conduct transactions – this skETH is SKALE Chain "fake" ETH with no economic value, but provides a way for dApps to facilitate permissive access to SKALE Chains and protects against DDoS attacks.
+#### Fund your Wallet with sFUEL
+SKALE Chains enable dApps to run scalable, cost-free transactions. This provides an effective way to scale your dApp not only for speed but also to scale economically. SKALE Chains do require sFUEL to conduct transactions – this sFUEL is a gas token with no economic value and provides a way for dApps to facilitate permissive access to SKALE Chains and protects against DDoS attacks.
 
-You can learn more about skETH [here](https://skale.network/docs/developers/skale-chain-eth).
+There are a few ways developers can manage and allocate SKALE FUEL (sFUEL), depending on your setup.
 
-> If you are using the community SKALE Chains, you can simply head over to the SKALE testnet faucet to obtain skETH for using your SKALE Chain. You will need both your SKALE Chain endpoint and your wallet address to obtain skETH from the faucet. 
+You can learn more about sFUEL [here](https://docs.skale.network/learn/skale-chain-fuel).
+
+> If you are using the community SKALE Chains, you can simply head over to the [SKALE testnet faucet](https://faucet.skale.network) to obtain sFUEL for using your SKALE Chain. You will need both your SKALE Chain endpoint and your wallet address to obtain sFUEL from the faucet. 
 
 ### 3) Update Truffle Config
 
