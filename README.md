@@ -23,11 +23,11 @@ Welcome to the SKALE Network Box! This Truffle SKALE Network box provides you wi
 
 This box comes with everything you need to start using smart contracts from a react app on the SKALE Network.   
 
-The SKALE Network is fully decentralized, and is supported by a validator community represented by over 48 validator orgs running over 150 nodes. Since the network is EVM compatible, all existing tools built for Ethereum will work directly within the SKALE Network as well. For example, the SKALE Network is fully compatible with the all Ethereum native wallets. Check out the SKALE Network Dev Portal for easy integration scripts fo connecting your favorite wallet, [here](https://skale.network/docs/developers/wallets/getting-started).
+The SKALE Network is fully decentralized, and is supported by a validator community represented by over 48 validator orgs running over 150 nodes. Since the network is EVM compatible, all existing tools built for Ethereum will work directly within the SKALE Network as well. For example, the SKALE Network is fully compatible with the all Ethereum native wallets. Check out the SKALE Network Dev Portal for easy integration scripts fo connecting your favorite wallet, [here](https://docs.skale.network/develop/deployment).
 
 For example, connecting MetaMask to SKALE in a seamless way can be seen in this document:
 
-https://skale.network/docs/developers/wallets/metamask
+https://docs.skale.network/develop/wallets/metamask
 
 **All SKALE Chains contain the following features:**
 
