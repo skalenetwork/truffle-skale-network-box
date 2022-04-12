@@ -11,7 +11,7 @@
 
 
 /*
- * To set your envorinment variables (i.e. PRIVATE_KEY) create a file at the root 
+ * To set your environment variables (i.e. PRIVATE_KEY) create a file at the root 
  * of this project and name it .env.
  */
 require('dotenv').config();
