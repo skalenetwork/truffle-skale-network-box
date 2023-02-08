@@ -19,7 +19,7 @@
 
   ## Overview
 
-Welcome to the SKALE Network Box! This Truffle SKALE Network box provides you with all the basics necessary to kick-start scaling your application with the SKALE Network. You can find out more information about getting started with SKALE within the [Developer Getting Started Guide](https://skale.network/docs/developers/getting-started/beginner).
+Welcome to the SKALE Network Box! This Truffle SKALE Network box provides you with all the basics necessary to kick-start scaling your application with the SKALE Network. You can find out more information about getting started with SKALE within the [Developer Getting Started Guide](https://docs.skale.network/develop/).
 
 This box comes with everything you need to start using smart contracts from a react app on the SKALE Network.   
 
@@ -37,15 +37,15 @@ https://docs.skale.network/develop/wallets/metamask
 * Integration Support for All Ethereum Tools
 * Wallet Support for API and HSM Wallets
 
-Lastly, the SKALE Network uses a [unique combination of several technologies](https://skale.network/blog/technical-highlights) to achieve scalability, security, interoperability, and progressive decentralization:
+Lastly, the SKALE Network uses a [unique combination of several technologies](https://skale.space/highlights) to achieve scalability, security, interoperability, and progressive decentralization:
 
 | Technology | Impact |
 |--|--|
-| Pooled Validation Proof-of-Stake | [Scalable security model across validators and delegators](https://skale.network/blog/the-skale-network-why-randomness-rotation-and-incentives-are-critical-for-secure-scaling/) |
-|Hybrid Container Architecture | [Agile allocation of on-demand composable compute resources across the network](https://skale.network/blog/containerization-the-future-of-decentralized-infrastructure/) |
-| Threshold Cryptography | Supermajority signature signing with ABBA consensus supports Byzantine Fault Tolerance and resolves [data-availability](https://skale.network/blog/the-data-availability-problem/) issues |
+| Pooled Validation Proof-of-Stake | [Scalable security model across validators and delegators](https://skale.space/blog/the-skale-network-why-randomness-rotation-and-incentives-are-critical-for-secure-scaling/) |
+|Hybrid Container Architecture | [Agile allocation of on-demand composable compute resources across the network](https://skale.space/blog/containerization-the-future-of-decentralized-infrastructure/) |
+| Threshold Cryptography | Supermajority signature signing with ABBA consensus supports Byzantine Fault Tolerance and resolves [data-availability](https://skale.space/blog/the-data-availability-problem/) issues |
 | Trusted-Execution Environment | [Fast block signing and multiple chain support using threshold cryptography](https://github.com/skalenetwork/SGXWallet) |
-| Asynchronous Binary Byzantine Agreement (ABBA) Consensus | [Mathematically provable, fast-finality, leaderless, and Byzantine Fault Tolerant](https://skale.network/blog/skale-consensus/) |
+| Asynchronous Binary Byzantine Agreement (ABBA) Consensus | [Mathematically provable, fast-finality, leaderless, and Byzantine Fault Tolerant](https://skale.space/blog/skale-consensus/) |
 | Ethereum Network | Public, open-source, and decentralized operation of the SKALE Network via SKALE Manager contracts |
 
 ## Requirements
@@ -69,14 +69,14 @@ $ npm install
 
 ###  1) Get a SKALE Chain
 
-The SKALE Network is a multichain platform, and there are many ways to get access to the SKALE Network testing environments. To obtain your SKALE Chain endpoint and Chain ID, check out the [SKALE Network getting started guide](https://skale.network/docs/developers/getting-started/beginner).
+The SKALE Network is a multichain platform, and there are many ways to get access to the SKALE Network testing environments. To obtain your SKALE Chain endpoint and Chain ID, check out the [SKALE Network getting started guide](https://docs.skale.network/develop/).
 
-> Alternatively, for faster testing please feel free to use the available community SKALE Chains listed [here](https://forum.skale.network/t/skale-chain-sdk).
+> Alternatively, for faster testing please feel free to use the available [SDK Repo](https://github.com/skalenetwork/skale-sdk) and [Documentation](https://docs.skale.network/develop/ima-sdk).
 
 ### 2) Get a Wallet
 The SKALE Network works with a variety of wallet solutions. If you already have a wallet and private key to use, you can skip this step and go to the next section: [Update Truffle Config](#update-truffle-config).
 
-You can pick and setup your favorite wallet from the documentation [here](https://docs.skale.network/develop/).
+You can pick and setup your favorite wallet from the documentation [here](https://docs.skale.network/develop/wallets).
 
 We recommend starting with MetaMask, and obtaining a wallet address and private key to use for testing from the [MetaMask wallet](https://metamask.io/).
 
@@ -86,8 +86,6 @@ SKALE Chains enable dApps to run scalable, cost-free transactions. This provides
 There are a few ways developers can manage and allocate SKALE FUEL (sFUEL), depending on your setup.
 
 You can learn more about sFUEL [here](https://docs.skale.network/learn/skale-chain-fuel).
-
-> If you are using the community SKALE Chains, you can simply head over to the [SKALE testnet faucet](https://faucet.skale.network) to obtain sFUEL for using your SKALE Chain. You will need both your SKALE Chain endpoint and your wallet address to obtain sFUEL from the faucet. 
 
 ### 3) Update Truffle Config
 
@@ -153,10 +151,10 @@ Truffle can run tests written in Solidity or JavaScript against your smart contr
 ## Resources
 
 **SKALE Network Resources Links**
-- [Website](https://skale.network)
-- [Blog](https://skale.network/blog)
+- [Website](https://skale.space)
+- [Blog](https://skale.space/blog)
 - [Github](https://github.com/skalenetwork)
-- [Whitepaper](https://skale.network/whitepaper)
+- [Whitepaper](https://skale.space/whitepaper)
 - [Developer Docs](https://docs.skale.network)
 
 **SKALE Network Community Links**
